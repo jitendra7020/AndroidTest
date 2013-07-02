@@ -26,11 +26,11 @@ public class AnimationDemo extends Activity {
 				View toolbar = findViewById(R.id.layout1);
 				
 				if(isHidden){
-					expand(toolbar,1500);
+					expand(toolbar,1000);
 					isHidden = false;
 				}
 				else{
-					collapse(toolbar,1500);
+					collapse(toolbar,1000);
 					isHidden = true;
 				}
 			}
